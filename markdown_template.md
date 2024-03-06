@@ -5,7 +5,8 @@
 
 Here are some examples of Markdown file with live editing in VSCode
 */
-/*<!--
+/*
+<!--
 ```c
 */
 #include <stdio.h>

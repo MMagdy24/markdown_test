@@ -5,19 +5,19 @@
 
 Here are some examples of Markdown file with live editing in VSCode
 */
-/*
-<!--
-```c
-*/
+
+// <!--
+// ```c
+
 #include <stdio.h>
 
 int main() {
     printf("Hello, World!\n");
     return 0;
 }
-/*
--->
-*/
+
+// -->
+
 
 /*
 # 1. Flow Chart

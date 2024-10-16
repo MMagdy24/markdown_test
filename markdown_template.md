@@ -1,28 +1,9 @@
 ![1709246786186](image/markdown_template/Valeo-400x200.png)
 
-/*
 # MarkDown example
 
 Here are some examples of Markdown file with live editing in VSCode
-*/
 
-/*
- <!--
- ```c
-*/
-
-#include <stdio.h>
-
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
-
-/*
- -->
-*/
-
-/*
 # 1. Flow Chart
 
 ```mermaid
@@ -36,7 +17,7 @@ flowchart TD
     D --> B
     B ---->|No| E[End]    
 ```
-*/
+
 ***
 ---
 
@@ -99,6 +80,23 @@ stateDiagram
     Moving --> Still
     Moving --> Crash
     Crash --> [*]
+```
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Browser
+    participant Server
+
+    User->>Browser: Open Website
+    Browser->>Server: Request Page
+    Server-->>Browser: Send Page
+    Browser-->>User: Display Page
+
+    User->>Browser: Click "Login"
+    Browser->>Server: Submit Login Form
+    Server-->>Browser: Authentication Response
+    Browser-->>User: Display Dashboard
 ```
 
 

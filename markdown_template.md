@@ -1,5 +1,3 @@
-![1709246786186](image/markdown_template/Valeo-400x200.png)
-
 # MarkDown example
 
 Here are some examples of Markdown file with live editing in VSCode

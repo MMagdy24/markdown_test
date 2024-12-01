@@ -2,4 +2,6 @@
 *.c linguist-language=C++
 
 # Treat .c files as Markdown (in case you want them to display as Markdown content)
-#*.c linguist-language=Markdown
+*.c linguist-language=Markdown
+
+*.c text eol=lf
